@@ -23,10 +23,11 @@ body{
 .wrapper h1{
     color: white;
     font-size: 45px;
+    text-align: center;
 }
 .timer_wrapper{
     display: flex;
-    width: 75%;
+    width: fit-content;
     height: 207px;
     justify-content: space-between;
     padding: 60px;
@@ -34,6 +35,7 @@ body{
     border-radius: 20px;
     border: 1px solid rgb(124, 121, 121);
     box-shadow:-2px 5px 25px rgb(145, 90, 145);
+    gap: 100px;
 }
 .timer_wrapper div {
     width: 55px;
@@ -51,4 +53,11 @@ body{
 }
 .timer_wrapper div h2{
     color: white;
+}
+@media(max-width:680px){
+    .timer_wrapper{
+        flex-direction: column;
+        height: fit-content; 
+        gap: 40px;
+    }
 }

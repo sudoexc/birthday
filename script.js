@@ -1,6 +1,6 @@
 "use strict";
 
-const dayOfBirth = new Date("2026-04-14");
+const dayOfBirth = new Date("2026-08-14");
 
 // Getting elements from html
 const days = document.querySelector(".days");
